@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+section{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    background-color: #54a0ff;
+}
+.form{
+    width: 30vw;
+    /* height: 90vh; */
+    height: auto;
+    background-color: #fff;
+    padding: 2rem;
+    overflow: hidden;
+}
+.form label{
+    display: block;
+    margin-bottom: 10px;
+}
+
+.form input, .form textarea#msg{
+    width: 100%;
+    padding: 10px;
+    background-color: #dfe4ea;
+    border: 0;
+    outline: none;
+    margin-bottom: 20px;
+    border-radius: 3px;
+}
+.form textarea#msg{
+    height: 200px;
+    resize: none;
+}
+input.button{
+    width: 100%;
+    padding: 10px 0;
+    background-color: #54a0ff;
+    border: 0;
+    outline: none;
+    border-radius: 3px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 1.2rem;
+}
